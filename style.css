@@ -1,0 +1,124 @@
+@keyframes mymove{
+    from{background-color: rgb(236, 248, 19);}
+    to{background-color: rgb(10, 53, 244);}
+}
+
+
+#myhead{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    
+    background-color: linear-gradient(red,white,green);
+    position: relative;
+    align-content: center;
+   animation: mymove 0.5s infinite;
+   text-transform: uppercase;
+   text-align: center;
+   display: flex;
+   font-size: 50px;
+   text-decoration: underline;
+   font-display: center;
+
+}
+#myhead1{
+    color:linear-gradient(red,#fff,green);
+    font-family: comic sans MS;
+    position: relative;
+
+    font-size: 30px;
+}
+#myhead2{
+    color:linear-gradient(red,#fff,green);
+    font-family: comic sans MS;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+    color: red;
+}
+#myhead2:hover{
+    color: blue;
+}
+.center{
+    position: relative;
+    filter:brightness(100%);
+    width: 20%;
+    float: right;
+    border-radius: 50%;
+    height: 50%;
+    padding: 10px;
+    
+}
+#myhead1:hover{
+    color: red;
+}
+#myhead3{    
+   
+    font-family: comic sans MS;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+    color:green;
+}
+#myhead4{    
+   
+    font-family: comic sans MS;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+    color:blueviolet;
+}
+#myhead5{    
+   
+    font-family: comic sans MS;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+    color:red;
+}
+#myhead41{
+    font-family: comic sans MS;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: none;
+    color:blueviolet;
+
+}
+#myhead51{
+    font-family: comic sans MS;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(42, 153, 238);
+
+}
+#myhead31{
+    font-family: comic sans MS;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: none;
+    color:green;
+}
+#li1{
+    font-family: comic sans MS;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+}
+#li1:hover{
+    color: red;
+   background-image: "D:\visual studio\cicon.png";
+}
+.icon1{
+    -webkit-border-radius: 150px 150px 150px 150px;
+    -moz-border-radius: 150px 150px 150px 150px;
+    border-radius: 150px 150px 150px 150px;
+}
